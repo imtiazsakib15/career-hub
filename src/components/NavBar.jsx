@@ -50,10 +50,10 @@ const NavBar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navLinks}</ul>
+          <ul className="menu menu-horizontal px-1 space-x-2">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-white md:text-lg bg-violet-500 hover:bg-violet-600">Start Applying</a>
+          <button className="btn btn-primary text-white md:text-lg">Apply Now</button>
         </div>
       </div>
     </div>
