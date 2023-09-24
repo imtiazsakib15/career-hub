@@ -45,7 +45,7 @@ const NavBar = () => {
               {navLinks}
             </ul>
           </div>
-          <Link to="/" className="text-xl">
+          <Link to="/" className="text-2xl font-bold">
             Career Hub
           </Link>
         </div>
@@ -53,7 +53,9 @@ const NavBar = () => {
           <ul className="menu menu-horizontal px-1 space-x-2">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-primary text-white md:text-lg">Apply Now</button>
+          <button className="btn btn-primary text-white md:text-lg">
+            Apply Now
+          </button>
         </div>
       </div>
     </div>
